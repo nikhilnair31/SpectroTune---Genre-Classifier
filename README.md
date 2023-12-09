@@ -13,6 +13,13 @@ There are 2 sources of data:
 - [GTZAN Dataset - Music Genre Classification](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification?select=Data)
 - [Spotify 3-Second Mel Spectrograms](https://www.kaggle.com/datasets/mrodriguez2/spotify-3-second-mel-spectrograms)
 
+## How  To Use
+- Create a folder called `Data/genres_original` with the unzipped GTZAN file
+- Run `audio_noise_adder_async.py` to add noise to the .wav files and save it
+- Run `image_gen_async.py` to use the noisy .wav files and generate spectrograms
+- Run relevant script for different ML approachs to genre classification
+
+
 ## References
 - [Creating a Music Genre Classifier using a Convolutional Neural Network](https://glenn-viroux.medium.com/creating-a-music-genre-classifier-using-a-convolutional-neural-network-548d06658cee)
 - [Music Genre Classification using Deep Learning (Audio and Video)](https://medium.com/@aritrachowdhury95/music-genre-classification-using-deep-learning-audio-and-video-770173980104)
