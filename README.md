@@ -1,6 +1,6 @@
 # SpectroTune---Genre-Classifier
 
-![HEADER](.\HEADER.png)
+<img src="./HEADER.png"  />
 
 ## Introduction
 Music genre classification is an essential aspect of music information retrieval (MIR) and has numerous applications in the music industry, ranging from content-based music recommendation to indexing and organizing music databases. With the rise in digital music streaming platforms, such as Spotify, the ability to classify songs into genres automatically becomes increasingly significant.
